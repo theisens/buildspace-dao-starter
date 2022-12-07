@@ -1,11 +1,17 @@
+@font-face {
+  font-family: "Dune";
+  src: local("Dune"),
+   url("./fonts/Dune_Rise.otf") format("opentype");
+  }
+
 html,
 body {
   margin: 0;
-  font-family: Inter, sans-serif;
+  font-family: "Dune";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #7700ee;
-  color: #fff;
+  background-color: #263736;
+  color: #a48558;
   overflow-x: hidden;
 }
 #root {

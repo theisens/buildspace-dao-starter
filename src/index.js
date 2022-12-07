@@ -6,6 +6,7 @@ import App from './App';
 // Import thirdweb provider and Goerli ChainId
 import { ThirdwebProvider } from '@thirdweb-dev/react';
 import { ChainId } from '@thirdweb-dev/sdk';
+import './fonts/Dune_Rise.otf';
 
 // This is the chainId your dApp will work on.
 const activeChainId = ChainId.Goerli;
@@ -18,5 +19,5 @@ root.render(
     <ThirdwebProvider desiredChainId={activeChainId}>
       <App />
     </ThirdwebProvider>
-  </React.StrictMode>,
+  </React.StrictMode>
 );
